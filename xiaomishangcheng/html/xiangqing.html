@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/share.css">
+    <link rel="stylesheet" href="../css/font/iconfont.css">
+    <link rel="stylesheet" href="../css/xiangqing.css">
+    <script src="../../jquery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <div class="header">
+            <ol>
+                <li><a href="">小米商城</a></li>
+                <li><a href="">MIUI</a></li>
+                <li><a href="">loT</a></li>
+                <li><a href="">云服务</a></li>
+                <li><a href="">金融</a></li>
+                <li><a href="">有品</a></li>
+                <li><a href="">小爱开放平台</a></li>
+                <li><a href="">企业团购</a></li>
+                <li><a href="">资深证照</a></li>
+                <li><a href="">协议规则</a></li>
+                <li><a href="">下载app</a></li>
+                <li class="sel"><a href="">Select Region</a></li>
+            </ol>
+            <div class="gou">
+                <a href=""><img src="../img/gou.png">我的购物车<span class="g1">0</span></a>
+                </div>
+            <ul>
+                <li><a href="">消息通知</a></li>
+                <li><a href="">注册</a></li>
+                <li><a href="">登录</a></li>
+            </ul>    
+        </div>
+    </div>
+    <div class="list">
+        <div class="lister">
+            <div class="lo">
+                <img src="../img/logo.png" alt="">
+            </div>
+            <ol class="hua">
+                <li><a href="">全部商品分类</a></li>
+                <li><a href="">小米手机</a></li>
+                <li><a href="">笔记本</a></li>
+                <li><a href="">家电</a></li>
+                <li><a href="">新品</a></li>
+                <li><a href="">路由器</a></li>
+                <li><a href="">电视</a></li>
+                <li><a href="">智能硬件</a></li>
+                <li><a href="">服务</a></li>
+                <li><a href="">社区 </a></li>
+            </ol>
+            <button class="sou"><a href="" class="btn">搜索</a></button>
+            <input type="text" class="mi">
+        </div>
+    </div>
+    <div class="title">
+        <div class="titler">
+            <ol>
+                <li><a href=""><h3>小米9</h3></a></li>
+                <li><a href=""><span class="shu">|</span>小米9 SE</a></li>
+                <li><a href=""><span class="shu">|</span>小米9 透明尊享版</a></li>
+            </ol>
+            <ul>
+                <li><a href="">概述<span class="shu">|</span></a></li>
+                <li><a href="">参数<span class="shu">|</span></a></li>
+                <li><a href="">F码通道<span class="shu">|</span></a></li>
+                <li><a href="">用户评价</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hui">
+        <div class="huier">
+            <p>为方便您购买，请提前登录&nbsp;&nbsp;&nbsp;&nbsp;  <a href="">立即登录</a></p>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="naver">
+            <div class="phone">
+                    <div class="product">
+                        <div class="product-left" id="product-left">
+                            <ul id="smallpic">
+                                <div id="glass"></div>
+                                <!--选中小图中放大的部分-->
+                                <!---产品图部分,boxhide隐藏，boxshows显示-->
+                                <li class="boxhide boxshows">
+                                    <img src="../img/pro1.jpg" width="500" height="500">
+                                </li>
+                                <li class="boxhide">
+                                    <img src="../img/pro2.jpg" width="500" height="500">
+                                </li>
+                                <li class="boxhide">
+                                    <img src="../img/pro3.jpg" width="500" height="500">
+                                </li>
+                                <li class="boxhide">
+                                    <img src="../img/pro4.jpg" width="500" height="500">
+                                </li>
+                                <li class="boxhide">
+                                    <img src="../img/pro5.jpg" width="500" height="500">
+                                </li>
+                                <li class="boxhide">
+                                    <img src="../img/pro6.jpg" width="500" height="500">
+                                </li>
+                            </ul>
+                            <!----放大镜显示部分-->
+                            <div id="bigpic">
+                                <ul>
+                                    <!-----oImg控制右边放大镜显示的图片-->
+                                    <li class="bigpic-hide bigpic-show">
+                                        <img src="../img/pro1.jpg" class="oImg">
+                                    </li>
+                                    <li class="bigpic-hide">
+                                        <img src="../img/pro2.jpg">
+                                    </li>
+                                    <li class="bigpic-hide">
+                                        <img src="../img/pro3.jpg">
+                                    </li>
+                                    <li class="bigpic-hide">
+                                        <img src="../img/pro4.jpg">
+                                    </li>
+                                    <li class="bigpic-hide">
+                                        <img src="../img/pro5.jpg">
+                                    </li>
+                                    <li class="bigpic-hide">
+                                        <img src="../img/pro6.jpg">
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--放大镜结束-->
+                    
+                    
+                            <div id="showsum" class="showsum">
+                                <p style="position: absolute; top: 0px; width: 430px; left: 36px;">
+                                    <span style="float: left;  margin-left: 7px;" class="sel">
+                                        <img src="../img/pro1.jpg" width="60px" ; height="60px">
+                                    </span>
+                                    <span style="float: left;  margin-left: 7px;">
+                                        <img src="../img/pro2.jpg" width="60px" ; height="60px">
+                                    </span>
+                                    <span style="float: left;  margin-left: 7px;">
+                                        <img src="../img/pro3.jpg" width="60px" ; height="60px">
+                                    </span>
+                                    <span style="float: left;  margin-left: 7px;">
+                                        <img src="../img/pro4.jpg" width="60px" ; height="60px">
+                                    </span>
+                                    <span style="float: left;  margin-left: 7px;">
+                                        <img src="../img/pro5.jpg" width="60px" ; height="60px">
+                                    </span>
+                                    <span style="float: left;  margin-left: 7px;">
+                                        <img src="../img/pro6.jpg" width="60px" ; height="60px">
+                                    </span>
+                                </p>
+                            </div>
+                            <p class="showpage">
+                                <a href="javascript:void(0);" id="showlast" class="iconfont">&#xe79b;</a>
+                                <a href="javascript:void(0);" id="shownext" class="iconfont">&#xe600;</a>
+                            </p>
+                    
+                        </div>
+                    
+                        <div class="product-right">
+                    
+                        </div>
+                    </div>
+        
+            </div>
+            <div class="mai">
+                <h1>小米9</h1>
+                <p class="p1"><font color="#ff4a00">「6GB+128GB，6月1日0点起赠价值149元无线充电宝」</font>
+                全曲面轻薄设计，全息幻彩玻璃机身 /  骁龙855旗舰处理器 / 20W无线闪充，标配27W有线快充 / 索尼4800万超广角微距三摄 / 极速屏下指纹解锁 / 多功能NFC
+                </p>
+                <p class="p2">小米自营</p>
+                <p class="p3">2999元</p>
+                <div class="zeng">
+                    <button class="ping">赠品</button>
+                    <span class="ka">赠米粉卡</span>
+                </div>
+                <div class="di">
+                    <div class="dil"><img src="../img/di.png" alt=""></div>
+                    <div class="zhi"><p class="p4">北京&nbsp;&nbsp; 北京市&nbsp;&nbsp; 东城区 &nbsp;&nbsp;安定门街道&nbsp;&nbsp; <a href="">修改</a></p>
+                    <p class="p5"> 有现货</p>
+                    </div>
+                </div>
+                <h2>选择版本</h2>
+                <ul class="can">
+                    <li class="s1 borc"><p>6GB+128GB<span class="s4">2999元</span></p></li>
+                    <li class="s2"><p>8GB+128GB<span class="s4">3299元</span></p></li>
+                    <li class="s3"><p>8GB+256GB<span class="s4">3699元</span></p></li>
+                <h2>选择颜色</h2>
+                <ul class="yan">
+                    <li class="s1 borc"><p>全息幻彩紫</p></li>
+                    <li class="s2"><p>全息幻彩篮</p></li>
+                    <li class="s3"><p>太空登月灰</p></li>
+                <div class="kuan">
+                    <ol class="kuan1">
+                        <li>小米9 全网通版</li>
+                        <li class="k1">6GB+128GB</li>
+                        <li class="k2">全息幻彩紫</li>
+                        <li class="k3">2999元</li>
+                    </ol>
+                    <h3 class="zon">总计：<span class="s5">2999元</span></h3>
+                    </div>
+                    <div class="fu">
+                        <a href=""><button class="b1">加入购物车</button></a>
+                        <button class="b2">我喜欢</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="botton">
+            <div class="bottoner">
+                <div class="yuye">
+                    <ul>
+                        <li><a href="">预约维修服务</a></li>
+                        <li><a href="">7天无理由退货</a></li>
+                        <li><a href="">15天免费换货</a></li>
+                        <li><a href="">满150元包邮</a></li>
+                        <li><a href="">520余家售后网点</a></li>
+                    </ul>
+                </div>
+                <div class="lian">
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd>账户管理</dd>
+                        <dd>购物指南</dd>
+                        <dd>订单操作</dd>
+                    </dl>
+                    <dl>
+                        <dt>服务支持</dt>
+                        <dd>售后政策</dd>
+                        <dd>自助服务</dd>
+                        <dd>相关下载</dd>
+                    </dl>
+                    <dl>
+                        <dt>线下门店</dt>
+                        <dd>小米之家</dd>
+                        <dd>服务网点</dd>
+                        <dd>授权体验店</dd>
+                    </dl>
+                    <dl>
+                        <dt>关于小米</dt>
+                        <dd>了解小米</dd>
+                        <dd>加入小米</dd>
+                        <dd>投资者关系</dd>
+                    </dl>
+                    <dl>
+                        <dt>关注我们</dt>
+                        <dd>新浪微博</dd>
+                        <dd>官方微信</dd>
+                        <dd>联系我们</dd>
+                    </dl>
+                    <dl>
+                        <dt>特色服务</dt>
+                        <dd>F码通道</dd>
+                        <dd>礼物码</dd>
+                        <dd>防伪查询</dd>
+                    </dl>
+                    <div class="qq">
+                        <h1>400-100-5678</h1>
+                        <p>周一至周日 8:00-18:00
+                            <br>
+                            (仅收市话费)
+                        </p>
+                        <a href=""><button class="btn2">联系客服</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="foot">
+            <div class="footer">
+                <div class="wei">
+                    <div class="milo"><img src="../img/mil.png" alt=""></div>
+                    <ol>
+                        <li><a href="">小米商城</a></li>
+                        <li><a href="">MIUI</a></li>
+                        <li><a href="">米家</a></li>
+                        <li><a href="">米聊</a></li>
+                        <li><a href="">多看</a></li>
+                        <li><a href="">游戏</a></li>
+                        <li><a href="">路由器</a></li>
+                        <li><a href="">米粉卡</a></li>
+                        <li><a href="">政企服务</a></li>
+                        <li><a href="">小米天猫店</a></li>
+                        <li><a href="">隐私政策</a></li>
+                        <li><a href="">商城用户协议</a></li>
+                        <li><a href="">账号协议</a></li>
+                        <li><a href="">问题反馈</a></li>
+                        <li><a href="">廉政举报</a></li>
+                        <li><a href="">诚信合规</a></li>
+                        <li><a href="">Select Region</a></li>
+                    </ol>
+                    <div class="ps">
+                        <p class="p1"><a href="">©mi.com</a> <a href="">京ICP证110507号</a> <a href="">京ICP备10046444号</a> <a href="">京公网安备11010802020134号</a> <a href="">京网文[2017]1530-131号</a> <a href="">（京）网械平台备字（2018）第00005号</a></p>
+                        <p class="p2"><a href="">（京）网械平台备字（2018）第00005号</a><a href="">互联网药品信息服务资格证 (京) -非经营性-2014-0090</a><a href="">营业执照</a><a href="">医疗器械公告</a></p>
+                        <p class="p3"><a href="">增值电信业务许可证</a><a href="">网络食品经营备案（京）【2018】WLSPJYBAHF-12</a><a href="">食品经营许可证</a></p>
+                        <p class="p4">违法和不良信息举报电话：185-0130-1238知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+                    </div>    
+                </div>
+                <div class="dianjia"><img src="../img/dianjia.png" alt=""></div>
+                <div class="fa"><img src="../img/sao.png" alt=""></div>
+            </div>
+        </div>
+    <script>
+            //价钱参数
+            $(".can > li").click(function(){   
+                var k1s = $(this).html();
+                $(".k1").html( k1s);
+                $(".k1 .s4").css("display","none");
+                $(this).addClass("borc").siblings().removeClass("borc");
+                $(".k3").html($(".k1 .s4").html());
+                $(".p3").html($(".k1 .s4").html());
+                $(".s5").html($(".k1 .s4").html());
+                $(".k3").css("display","block");
+            })
+            //手机颜色
+            $(".yan > li").click(function(){   
+                var k1s = $(this).html();
+                $(".k2").html( k1s);
+                $(this).addClass("borc").siblings().removeClass("borc");
+            })
+            //加入购物车
+           
+
+
+
+            $(".b1").mouseover(function(){
+                $(".b1").css("background-color","#f25807");
+            }).mouseout(function(){
+                $(".b1").css("background-color","#ff6700");
+            })
+            $(".b2").mouseover(function(){
+                $(".b2").css("background-color","#757575");
+            }).mouseout(function(){
+                $(".b2").css("background-color","#b0b0b0");
+            })
+
+
+
+        //放大镜
+        $(function () {
+        $("#smallpic").on("mouseover", function () {
+            $("#glass").css("display", "block");//鼠标移入，放大镜出现
+            $("#bigpic").css("display", "block")
+        })
+        $("#smallpic").on("mouseout", function () {//鼠标移出，放大镜消失
+            $("#glass").css("display", "none");
+            $("#bigpic").css("display", "none")
+        })
+        $("#smallpic").on("mousemove", function (ev) {
+            var disX = ev.pageX - $("#smallpic").offset().left - $("#glass").width() / 2;
+            var disY = ev.pageY - $("#smallpic").offset().top - $("#glass").height() / 2;//此处最好不要用clientY
+
+            if (disX < 0) {
+                disX = 0
+            } else if (disX > ($("#smallpic").width() - $("#glass").width())) {
+                disX = $("#smallpic").width() - $("#glass").width()
+            }
+
+            if (disY < 0) {
+                disY = 0
+            } else if (disY > ($("#smallpic").height() - $("#glass").height())) {
+                disY = $("#smallpic").height() - $("#glass").height()
+            }
+
+            // if (disX < 0) {
+            //     disX = 0
+            // } else if (disX > ($("#smallpic").width() )) {
+            //     disX = $("#smallpic").width() 
+            // }
+
+            // if (disY < 0) {
+            //     disY = 0
+            // } else if (disY > ($("#smallpic").height() )) {
+            //     disY = $("#smallpic").height()
+            // }
+
+            $("#glass").css({
+                left: disX + "px",
+                top: disY + "px"
+            })
+
+            var l = disX / ($("#smallpic").width() - $("#glass").width())
+            var t = disY / ($("#smallpic").height() - $("#glass").height())
+
+            //右侧放大镜显示的逻辑
+            $(".oImg").css({
+                left: -l * ($(".oImg").width() - $("#bigpic").width()) + "px",
+                top: -t * ($(".oImg").height() - $("#bigpic").height()) + "px"
+            })
+        })
+    })
+    /*放大镜结束*/
+
+    var index = 0;
+    $("#showsum span").mouseover(function () {
+        $(this).addClass("sel").siblings().removeClass("sel");
+        var index = $(this).index();
+        $(".boxhide").eq(index).addClass('boxshows').siblings().removeClass('boxshows');
+        $(".bigpic-hide").eq(index).addClass('bigpic-show').siblings().removeClass('bigpic-show');
+
+        $(".bigpic-show img").addClass('oImg');//class为bigpic-show 的子元素添加oImg显示出来
+        $(".bigpic-hide").eq(index).siblings().children("img").removeClass('oImg');//除了下标为index的img标签移除oImg
+       
+    })
+
+    //左侧箭头到上一张图片
+    $("#showlast").on("click", function () {
+        var index = $(".sel").index();
+        if (index == 0) {
+            index = 0;
+        } else {
+            index--;
+        }
+
+        $("#showsum span").eq(index).addClass("sel").siblings().removeClass("sel");
+        $(".boxhide").eq(index).addClass('boxshows').siblings().removeClass('boxshows');
+        $(".bigpic-hide").eq(index).addClass('bigpic-show').siblings().removeClass('bigpic-show');
+       
+        $(".bigpic-show img").addClass('oImg');
+        $(".bigpic-hide").eq(index).siblings().children("img").removeClass('oImg');
+    })
+     //右边箭头到下一张图片
+    $("#shownext").on("click", function () {
+        var index = $(".sel").index();
+        if (index == 5) {
+            index = 5
+        } else {
+            index++;
+        }
+        $("#showsum span").eq(index).addClass("sel").siblings().removeClass("sel");
+        $(".boxhide").eq(index).addClass('boxshows').siblings().removeClass('boxshows');
+        $(".bigpic-hide").eq(index).addClass('bigpic-show').siblings().removeClass('bigpic-show');
+       
+        $(".bigpic-show img").addClass('oImg');
+        $(".bigpic-hide").eq(index).siblings().children("img").removeClass('oImg');
+    })
+    </script>
+
+</body>
+</html>

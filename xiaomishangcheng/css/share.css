@@ -1,0 +1,10 @@
+html,body,ol,ul,li,b,em,strong,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,img,input,table,tr,td,header,article,aside,section,footer{margin: 0;padding:0;}
+ul li, ol li { list-style:none;} 
+a{text-decoration:none;}
+.fl{float: left;}
+.rl{float: right;}
+.img{display: block;}
+em,i{font-style:normal}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+.clearfix:after{content:".";clear:both;display:block;height:0;
+				overflow:hidden;visibility:hidden; font-size:1px;}
